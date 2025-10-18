@@ -4,7 +4,7 @@ public class Mago extends Personaje{
     String skin;
 
     public Mago(String nombre, String rol, String ulti, String primerHabilidad, String segundaHabilidad, String skin) {
-        super(nombre, rol, ulti, primerHabilidad, segundaHabilidad); // ✅ llama al constructor correcto del padre
+        super(nombre, rol, ulti, primerHabilidad, segundaHabilidad); 
         this.skin = skin;
     }
     
